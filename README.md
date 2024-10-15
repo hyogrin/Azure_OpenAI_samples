@@ -8,7 +8,10 @@
 ## 🥇Other Resources
 
 ### Azure OpenAI pricing
-https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
+- https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
+
+### Diagam of a search scoring workflow
+- https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking#diagram-of-a-search-scoring-workflow 
 
 
 
