@@ -1,0 +1,6 @@
+azure-search-documents==11.6.0b4
+openai
+python-dotenv==1.0.0
+tenacity
+pandas==2.1.2 
+tiktoken==0.7.0
