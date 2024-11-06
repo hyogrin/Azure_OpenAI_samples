@@ -2,3 +2,5 @@ tiktoken
 promptflow[azure]
 promptflow-tools
 azure-ai-contentsafety==1.0.0
+azure-storage-blob
+pandas
