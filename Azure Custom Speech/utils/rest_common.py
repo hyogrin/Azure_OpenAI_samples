@@ -163,20 +163,19 @@ def print_evaluation_results(base_url, headers, evaluation_id):
     response = requests.get(evaluation_url, headers=headers)
     response.raise_for_status()
     evaluation_info = response.json()
+    print(evaluation_info)
     if evaluation_info['status'] == 'Succeeded':
-        wer = evaluation_info['properties'].get('wer')
-        if wer is not None:
-            print(f'Word Error Rate (WER): {wer * 100:.2f}%')
-        else:
-            print('WER not available.')
+        wer1 = evaluation_info['properties'].get('wordErrorRate1')
+        wer2 = evaluation_info['properties'].get('wordErrorRate2')
         
-        # Get detailed evaluation results if available
-        details_url = evaluation_info['properties'].get('detailsUrl')
-        if details_url:
-            response = requests.get(details_url)
-            response.raise_for_status()
-            evaluation_details = response.json()
-            print('Detailed Evaluation Results:')
-            print(json.dumps(evaluation_details, indent=2))
+        if wer1 is not None:
+            print(f'Word Error Rate (WER1): {wer1 * 100:.2f}%')
+        else:
+            print('WER1 not available.')
+        if wer2 is not None:
+            print(f'Word Error Rate (WER2): {wer2 * 100:.2f}%')
+        else:
+            print('WER2 not available.')
+        
     else:
         print('Evaluation failed.')
