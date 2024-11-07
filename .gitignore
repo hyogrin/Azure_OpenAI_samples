@@ -28,6 +28,7 @@ MANIFEST
 output/
 plain_text/
 sample/
+Promptflow with Python SDK/config.json
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
