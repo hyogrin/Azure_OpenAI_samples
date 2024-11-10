@@ -1,0 +1,20 @@
+1_vi-VN_20241110220608.wav	Tôi có thể được trợ giúp bằng tiếng Anh không?
+2_vi-VN_20241110220612.wav	Máy giặt của tôi không hoạt động, tôi phải làm gì?
+3_vi-VN_20241110220616.wav	LG có chính sách bảo hành bao lâu?
+4_vi-VN_20241110220620.wav	Tôi có thể tìm địa điểm bảo hành gần nhất như thế nào?
+5_vi-VN_20241110220624.wav	TV của tôi không lên hình, làm thế nào để khắc phục?
+6_vi-VN_20241110220629.wav	Tôi có thể mua phụ kiện chính hãng ở đâu?
+7_vi-VN_20241110220632.wav	Điều hòa nhiệt độ không mát, tôi nên làm gì?
+8_vi-VN_20241110220636.wav	Các phương thức thanh toán chấp nhận là gì?
+9_vi-VN_20241110220640.wav	Tôi có thể đặt lịch bảo trì sản phẩm qua đâu?
+10_vi-VN_20241110220644.wav	Tôi cần cung cấp thông tin gì khi gọi hỗ trợ?
+11_vi-VN_20241110220648.wav	Làm sao để kết nối tủ lạnh với điện thoại?
+12_vi-VN_20241110220652.wav	Tại sao bếp từ không bật lên?
+13_vi-VN_20241110220655.wav	LG có hỗ trợ thay thế linh kiện không?
+14_vi-VN_20241110220659.wav	Tốc độ Wifi của router LG rất chậm, tôi cần làm gì?
+15_vi-VN_20241110220704.wav	Tôi có thể nâng cấp phần mềm cho thiết bị không?
+16_vi-VN_20241110220708.wav	Thời gian hoạt động của tổng đài là gì?
+17_vi-VN_20241110220711.wav	LG có hỗ trợ bảo hành tận nhà không?
+18_vi-VN_20241110220715.wav	Làm thế nào để khử mùi trong tủ lạnh?
+19_vi-VN_20241110220719.wav	Có cách nào để tiết kiệm điện cho điều hòa không?
+20_vi-VN_20241110220722.wav	Làm sao để đăng ký sản phẩm LG trực tuyến?

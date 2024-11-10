@@ -221,3 +221,65 @@ def upload_dataset_to_storage(data_folder, container_name, account_name, account
     print("url:", url)
     
     return uploaded_files, url
+
+
+def create_endpoint(base_url, headers, project_id, model_id, display_name, description, locale):
+    """
+    Creates an endpoint using the model.
+    """
+    endpoint_url = f'{base_url}/v3.2/endpoints'
+    print(endpoint_url)
+    print(project_id, model_id)
+
+    endpoint_body = {
+        "model": {
+            "self": f'{base_url}/v3.2/models/{model_id}'
+        },
+        "project": {
+            "self": f'{base_url}/v3.2/projects/{project_id}'
+        },
+        "displayName": display_name,
+        "description": description,
+        "locale": locale,
+        
+    }
+    
+    print(endpoint_body)
+
+    response = requests.post(endpoint_url, headers=headers, json=endpoint_body)
+    response.raise_for_status()
+    endpoint = response.json()
+    endpoint_id = endpoint['self'].split('/')[-1]
+    print(f'Create Endpoint and deploy job finished with ID: {endpoint_id}')
+    return endpoint_id
+
+def get_endpoint_status(base_url, headers, endpoint_id):
+    """
+    Polls the endpoint job until it completes.
+    """
+    endpoint_url = f'{base_url}/v3.2/endpoints/{endpoint_id}'
+    response = requests.get(endpoint_url, headers=headers)
+    response.raise_for_status()
+    endpoint_info = response.json()
+    return endpoint_info['status']
+
+
+def delete_endpoint(base_url, headers, endpoint_id):
+    """
+    Deletes the endpoint identified by the given ID.
+    """
+    endpoint_url = f'{base_url}/v3.2/endpoints/{endpoint_id}'
+    response = requests.delete(endpoint_url, headers=headers)
+    status = response.raise_for_status()
+    print(f'The endpoint deleted: {endpoint_id}, {status}')
+
+
+
+def delete_project(base_url, headers, project_id):
+    """
+    Deletes the project_id identified by the given ID.
+    """
+    project_url = f'{base_url}/v3.2/projects/{project_id}'
+    response = requests.delete(project_url, headers=headers)
+    status = response.raise_for_status()
+    print(f'The project deleted: {project_id}, {status}')    
