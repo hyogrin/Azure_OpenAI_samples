@@ -31,7 +31,7 @@ nodes:
     top_p: 1
     max_tokens: 256
     question: ${inputs.question}
-  connection: aoai-services1_aoai
+  connection: replace with your connection name
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
@@ -46,7 +46,7 @@ nodes:
     top_p: 1
     max_tokens: 256
     question: ${inputs.question}
-  connection: aoai-services1_aoai
+  connection: replace with your connection name
   api: chat
   module: promptflow.tools.aoai
   use_variants: false

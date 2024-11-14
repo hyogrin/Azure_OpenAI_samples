@@ -6,15 +6,19 @@ inputs:
     type: string
     is_chat_input: true
     default: What is the capital of France?
-outputs:
-  gpt4o-mini_answer:
+  context:
     type: string
-    reference: ${gpt-4o-mini.output}
-    is_chat_output: false
+    is_chat_input: false
+    default: TrailMaster X4 Tent is a durable polyester tent
+outputs:
   gpt-4o_answer:
     type: string
     reference: ${gpt-4o.output}
     is_chat_output: true
+  gpt-4o-mini_answer:
+    type: string
+    reference: ${gpt-4o-mini.output}
+    is_chat_output: true  
 nodes:
 - name: gpt-4o
   type: llm
@@ -27,7 +31,7 @@ nodes:
     top_p: 1
     max_tokens: 256
     question: ${inputs.question}
-  connection: replace with your connection name
+  connection: {{your_aoai_connection_name}}
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
@@ -42,7 +46,7 @@ nodes:
     top_p: 1
     max_tokens: 256
     question: ${inputs.question}
-  connection: replace with your connection name
+  connection: {{your_aoai_connection_name}}
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
