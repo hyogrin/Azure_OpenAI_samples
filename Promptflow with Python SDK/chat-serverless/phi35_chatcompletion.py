@@ -30,7 +30,6 @@ def chat(question: str, context:str, connection: CustomConnection) -> str:
                 {"role": "user", "content": "Use the following context to provide a more personalized response to the customer:"},
                 {"role": "user", "content": context},
                 {"role": "user", "content": question},
-                {"role": "user", "content": "Answer in Korean."},
                 
             ],
         "parameters": {
