@@ -1,0 +1,10 @@
+1_it-IT_20241203083933.wav	Come posso attivare il servizio di assistenza clienti LG?
+2_it-IT_20241203083933.wav	Qual è il numero di telefono per il servizio clienti LG?
+3_it-IT_20241203083933.wav	Ho bisogno di assistenza per il mio televisore LG, chi posso contattare?
+4_it-IT_20241203083933.wav	Come posso reimpostare le impostazioni del mio smartphone LG?
+5_it-IT_20241203083934.wav	Ho un problema con la mia lavatrice LG, chi posso contattare?
+6_it-IT_20241203083934.wav	Come posso richiedere una riparazione per il mio frigorifero LG?
+7_it-IT_20241203083934.wav	Ho bisogno di assistenza per il mio condizionatore LG, chi posso contattare?
+8_it-IT_20241203083934.wav	Come posso reclutare un tecnico LG per la riparazione di un elettrodomestico?
+9_it-IT_20241203083935.wav	Ho bisogno di assistenza per il mio forno LG, chi posso contattare?
+10_it-IT_20241203083935.wav	Come posso richiedere una sostituzione per il mio prodotto LG difettoso?
