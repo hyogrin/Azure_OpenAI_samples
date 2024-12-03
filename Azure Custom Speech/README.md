@@ -5,7 +5,7 @@
  <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20Custom%20Speech/0_text_data_generation.ipynb">Go to notebook</a>
 
 
-![alt text](images/Custom-STT-architecture_1129.png)
+![alt text](images/Custom-STT-architecture_1203.png)
 ## 🥇Other Resources
 
 ### Azure Custom Speech Python SDK
