@@ -1,130 +1,20 @@
-1_vi-VN_20241110220608.wav	Tôi có thể được trợ giúp bằng tiếng Anh không?
-2_vi-VN_20241110220612.wav	Máy giặt của tôi không hoạt động, tôi phải làm gì?
-3_vi-VN_20241110220616.wav	LG có chính sách bảo hành bao lâu?
-4_vi-VN_20241110220620.wav	Tôi có thể tìm địa điểm bảo hành gần nhất như thế nào?
-5_vi-VN_20241110220624.wav	TV của tôi không lên hình, làm thế nào để khắc phục?
-6_vi-VN_20241110220629.wav	Tôi có thể mua phụ kiện chính hãng ở đâu?
-7_vi-VN_20241110220632.wav	Điều hòa nhiệt độ không mát, tôi nên làm gì?
-8_vi-VN_20241110220636.wav	Các phương thức thanh toán chấp nhận là gì?
-9_vi-VN_20241110220640.wav	Tôi có thể đặt lịch bảo trì sản phẩm qua đâu?
-10_vi-VN_20241110220644.wav	Tôi cần cung cấp thông tin gì khi gọi hỗ trợ?
-11_vi-VN_20241110220648.wav	Làm sao để kết nối tủ lạnh với điện thoại?
-12_vi-VN_20241110220652.wav	Tại sao bếp từ không bật lên?
-13_vi-VN_20241110220655.wav	LG có hỗ trợ thay thế linh kiện không?
-14_vi-VN_20241110220659.wav	Tốc độ Wifi của router LG rất chậm, tôi cần làm gì?
-15_vi-VN_20241110220704.wav	Tôi có thể nâng cấp phần mềm cho thiết bị không?
-16_vi-VN_20241110220708.wav	Thời gian hoạt động của tổng đài là gì?
-17_vi-VN_20241110220711.wav	LG có hỗ trợ bảo hành tận nhà không?
-18_vi-VN_20241110220715.wav	Làm thế nào để khử mùi trong tủ lạnh?
-19_vi-VN_20241110220719.wav	Có cách nào để tiết kiệm điện cho điều hòa không?
-20_vi-VN_20241110220722.wav	Làm sao để đăng ký sản phẩm LG trực tuyến?
-1_vi-VN_20241111151305.wav	Xin chào, tôi có thể giúp gì cho bạn?
-2_vi-VN_20241111151310.wav	Tôi có một vấn đề với sản phẩm của tôi.
-3_vi-VN_20241111151314.wav	Quý khách có thể cung cấp thêm chi tiết về vấn đề không?
-4_vi-VN_20241111151319.wav	Sản phẩm của tôi không hoạt động.
-5_vi-VN_20241111151322.wav	Quý khách có thể reset thiết bị không?
-6_vi-VN_20241111151325.wav	Tôi đã thử reset nhưng vẫn không hoạt động.
-7_vi-VN_20241111151329.wav	Chúng tôi sẽ gửi kỹ thuật viên tới kiểm tra.
-8_vi-VN_20241111151333.wav	Thiết bị của tôi cần bảo hành.
-9_vi-VN_20241111151336.wav	Quý khách vui lòng cung cấp số serial của sản phẩm.
-10_vi-VN_20241111151341.wav	Sản phẩm của tôi bị lỗi sau khi cập nhật phần mềm.
-11_vi-VN_20241111151345.wav	Chúng tôi xin lỗi vì sự bất tiện này.
-12_vi-VN_20241111151349.wav	Chi phí sửa chữa sẽ như thế nào?
-13_vi-VN_20241111151352.wav	Tôi có thể lấy phụ kiện thay thế ở đâu?
-14_vi-VN_20241111151356.wav	Thiết bị của tôi không kết nối được với Wi-Fi.
-15_vi-VN_20241111151400.wav	Hãy kiểm tra lại mật khẩu Wi-Fi của quý khách.
-16_vi-VN_20241111151404.wav	Hướng dẫn sử dụng thiết bị ở đâu?
-17_vi-VN_20241111151407.wav	Quý khách có thể tải hướng dẫn từ trang web của chúng tôi.
-18_vi-VN_20241111151412.wav	Chính sách bảo hành của sản phẩm là gì?
-19_vi-VN_20241111151415.wav	Sản phẩm có bảo hành quốc tế không?
-20_vi-VN_20241111151418.wav	Thời gian sửa chữa mất bao lâu?
-21_vi-VN_20241111151422.wav	Tôi cần nâng cấp firmware của thiết bị.
-22_vi-VN_20241111151425.wav	Hãy kiểm tra trang web của chúng tôi để tải firmware mới nhất.
-23_vi-VN_20241111151430.wav	Điều khiển từ xa của tôi không hoạt động.
-24_vi-VN_20241111151434.wav	Quý khách đã thử thay pin chưa?
-25_vi-VN_20241111151437.wav	Khi nào sản phẩm mới sẽ được ra mắt?
-26_vi-VN_20241111151440.wav	Chúng tôi không thể tiết lộ thời gian cụ thể.
-27_vi-VN_20241111151444.wav	Dịch vụ khách hàng của bạn hoạt động từ mấy giờ đến mấy giờ?
-28_vi-VN_20241111151449.wav	Chúng tôi hoạt động từ 8 giờ sáng đến 6 giờ chiều.
-29_vi-VN_20241111151453.wav	Tôi có thể trả lại sản phẩm không?
-30_vi-VN_20241111151456.wav	Chính sách hoàn trả của quý khách là gì?
-31_vi-VN_20241111151500.wav	Sản phẩm cần được trả lại trong vòng 30 ngày.
-32_vi-VN_20241111151504.wav	Tôi có thể đặt hàng từ trang web của bạn không?
-33_vi-VN_20241111151508.wav	Vâng, quý khách có thể đặt hàng trực tuyến.
-34_vi-VN_20241111151512.wav	Thiết bị của tôi có ồn quá mức.
-35_vi-VN_20241111151515.wav	Quý khách có thể kiểm tra xem có vật nào cản trở không?
-36_vi-VN_20241111151519.wav	Chúng tôi sẽ sắp xếp kỹ thuật viên cho quý khách.
-37_vi-VN_20241111151523.wav	Máy giặt của tôi không vắt được.
-38_vi-VN_20241111151526.wav	Quý khách vui lòng kiểm tra lại cài đặt chương trình của máy.
-39_vi-VN_20241111151531.wav	TV của tôi không hiển thị hình ảnh.
-40_vi-VN_20241111151535.wav	Hãy kiểm tra lại kết nối cáp của quý khách.
-41_vi-VN_20241111151538.wav	Chất lượng âm thanh của sản phẩm không tốt.
-42_vi-VN_20241111151542.wav	Quý khách có thể thử tăng giảm âm lượng không?
-43_vi-VN_20241111151546.wav	Tôi muốn biết thêm thông tin về sản phẩm mới.
-44_vi-VN_20241111151550.wav	Vui lòng truy cập trang web để tìm hiểu thêm chi tiết.
-45_vi-VN_20241111151554.wav	Điều khoản và điều kiện bảo hành là gì?
-46_vi-VN_20241111151558.wav	Quý khách vui lòng cung cấp thông tin bảo hành của sản phẩm.
-47_vi-VN_20241111151602.wav	Hỗ trợ kỹ thuật của các bạn có phí không?
-48_vi-VN_20241111151606.wav	Hỗ trợ kỹ thuật là hoàn toàn miễn phí trong thời gian bảo hành.
-49_vi-VN_20241111151611.wav	Công ty của bạn có cửa hàng chính thức không?
-50_vi-VN_20241111151615.wav	Tôi muốn nhận hướng dẫn về cài đặt.
-51_vi-VN_20241111151618.wav	Chúng tôi sẽ gửi hướng dẫn cài đặt qua email cho quý khách.
-52_vi-VN_20241111151622.wav	Làm thế nào để cập nhật phần mềm của thiết bị?
-53_vi-VN_20241111151626.wav	Vui lòng truy cập trang web của chúng tôi để tải phần mềm mới.
-54_vi-VN_20241111151631.wav	Điều khiển của tôi bị mất, tôi có thể mua cái mới ở đâu?
-55_vi-VN_20241111151636.wav	Quý khách có thể mua điều khiển thay thế từ cửa hàng trực tuyến của chúng tôi.
-56_vi-VN_20241111151641.wav	Sản phẩm của bạn có hỗ trợ tiếng Việt không?
-57_vi-VN_20241111151645.wav	Có, sản phẩm của chúng tôi hỗ trợ tiếng Việt.
-58_vi-VN_20241111151649.wav	Sản phẩm của tôi cần thay pin.
-59_vi-VN_20241111151652.wav	Quý khách có thể mua pin thay thế từ cửa hàng của chúng tôi.
-60_vi-VN_20241111151657.wav	Tôi cần giúp đỡ với việc thiết lập thiết bị.
-61_vi-VN_20241111151701.wav	Chúng tôi sẽ hướng dẫn quý khách qua điện thoại.
-62_vi-VN_20241111151705.wav	Sản phẩm này có thể kết nối với smartphone không?
-63_vi-VN_20241111151709.wav	Vâng, sản phẩm hỗ trợ kết nối với smartphone.
-64_vi-VN_20241111151713.wav	Tôi muốn nâng cấp gói dịch vụ của mình.
-65_vi-VN_20241111151717.wav	Chúng tôi sẽ giúp quý khách nâng cấp gói dịch vụ.
-66_vi-VN_20241111151721.wav	Tôi có thể theo dõi tình trạng đơn hàng của mình ở đâu?
-67_vi-VN_20241111151725.wav	Vui lòng truy cập trang web của chúng tôi để theo dõi đơn hàng.
-68_vi-VN_20241111151730.wav	Sản phẩm của tôi bị hư hại khi vận chuyển.
-69_vi-VN_20241111151734.wav	Chúng tôi sẽ thay thế sản phẩm hư hại cho quý khách.
-70_vi-VN_20241111151738.wav	Làm thế nào để liên hệ với trung tâm bảo hành?
-71_vi-VN_20241111151742.wav	Quý khách có thể gọi hotline của chúng tôi để liên hệ.
-72_vi-VN_20241111151747.wav	Tôi cần biết thông tin về sản phẩm trước khi mua.
-73_vi-VN_20241111151751.wav	Chúng tôi sẽ giúp quý khách tìm hiểu thêm về sản phẩm.
-74_vi-VN_20241111151755.wav	Tôi có thể mua sản phẩm này ở đâu?
-75_vi-VN_20241111151758.wav	Quý khách có thể mua sản phẩm từ các cửa hàng đối tác của chúng tôi.
-76_vi-VN_20241111151803.wav	Tôi muốn biết địa chỉ trung tâm bảo hành gần nhất.
-77_vi-VN_20241111151807.wav	Vui lòng cung cấp địa chỉ của quý khách để chúng tôi có thể giúp.
-78_vi-VN_20241111151812.wav	Thiết bị của tôi cần phải bảo trì định kỳ.
-79_vi-VN_20241111151816.wav	Chúng tôi sẽ sắp xếp lịch bảo trì cho quý khách.
-80_vi-VN_20241111151820.wav	Tôi đã mua sản phẩm này từ nước khác, nó có bảo hành ở đây không?
-81_vi-VN_20241111151825.wav	Quý khách vui lòng cung cấp mã sản phẩm để chúng tôi kiểm tra.
-82_vi-VN_20241111151830.wav	Sản phẩm này có chức năng tiết kiệm năng lượng không?
-83_vi-VN_20241111151834.wav	Vâng, sản phẩm có chức năng tiết kiệm năng lượng.
-84_vi-VN_20241111151838.wav	Thiết bị của tôi bị quá nóng.
-85_vi-VN_20241111151841.wav	Quý khách có thể tắt thiết bị trong một lúc và thử lại không?
-86_vi-VN_20241111151845.wav	Tôi cần một bản sao của hóa đơn mua hàng.
-87_vi-VN_20241111151849.wav	Chúng tôi sẽ gửi bản sao hóa đơn qua email cho quý khách.
-88_vi-VN_20241111151854.wav	Làm thế nào để nhận dịch vụ bảo hành của quý khách?
-89_vi-VN_20241111151858.wav	Quý khách vui lòng mang sản phẩm đến trung tâm bảo hành gần nhất.
-90_vi-VN_20241111151903.wav	Tôi có thể thanh toán trực tuyến không?
-91_vi-VN_20241111151906.wav	Vâng, quý khách có thể thanh toán trực tuyến qua trang web của chúng tôi.
-92_vi-VN_20241111151911.wav	Tôi cần kiểm tra trạng thái bảo hành của thiết bị.
-93_vi-VN_20241111151915.wav	Quý khách vui lòng cung cấp số serial của thiết bị để chúng tôi kiểm tra.
-94_vi-VN_20241111151921.wav	Tôi có thể phục hồi dữ liệu từ thiết bị của mình không?
-95_vi-VN_20241111151925.wav	Chúng tôi sẽ hướng dẫn quý khách cách phục hồi dữ liệu.
-96_vi-VN_20241111151929.wav	Thiết bị của tôi bị một lỗi kỹ thuật.
-97_vi-VN_20241111151933.wav	Chúng tôi sẽ sắp xếp dịch vụ hỗ trợ kỹ thuật cho quý khách.
-98_vi-VN_20241111151937.wav	Tôi có thể tìm mã sản phẩm ở đâu?
-99_vi-VN_20241111151941.wav	Mã sản phẩm thường được dán ở phía sau hoặc dưới thiết bị.
-100_vi-VN_20241111151945.wav	Chúng tôi có thể giúp gì thêm cho quý khách?
-1_vi-VN_20241129075815.wav	Chào bộ phận chăm sóc khách hàng LG, tôi muốn hỏi về sản phẩm của công ty.
-2_vi-VN_20241129075815.wav	Tôi gặp vấn đề với máy giặt LG, có thể bạn giúp tôi khắc phục không?
-3_vi-VN_20241129075816.wav	Làm thế nào để tôi tắt chế độ chạy tự động trên máy giặt LG?
-4_vi-VN_20241129075816.wav	Tôi muốn biết thời gian bảo hành của máy lạnh LG là bao lâu?
-5_vi-VN_20241129075816.wav	Tôi muốn đặt lịch bảo dưỡng cho máy lạnh LG, có thể bạn giúp tôi không?
-6_vi-VN_20241129075817.wav	Tôi muốn biết cách thay lốp xe máy LG, có thể bạn giúp tôi không?
-7_vi-VN_20241129075817.wav	Tôi muốn biết cách sạc pin cho điện thoại LG, có thể bạn giúp tôi không?
-8_vi-VN_20241129075817.wav	Tôi muốn biết cách khôi phục dữ liệu cho máy tính bảng LG, có thể bạn giúp tôi không?
-9_vi-VN_20241129075818.wav	Tôi muốn biết cách cài đặt ứng dụng trên điện thoại LG, có thể bạn giúp tôi không?
-10_vi-VN_20241129075818.wav	Tôi muốn biết cách khởi động lại máy tính bảng LG, có thể bạn giúp tôi không?
+1_vi-VN_20241203020334.wav	Chào bộ phận chăm sóc khách hàng LG, tôi muốn hỏi về sản phẩm của công ty.
+2_vi-VN_20241203020334.wav	Tôi gặp vấn đề với máy giặt LG, có thể bạn giúp tôi khắc phục không?
+3_vi-VN_20241203020334.wav	Làm thế nào để tôi tắt chế độ chạy tự động trên máy giặt LG?
+4_vi-VN_20241203020334.wav	Tôi muốn biết thời gian bảo hành của máy lạnh LG là bao lâu?
+5_vi-VN_20241203020334.wav	Tôi muốn đặt lịch bảo dưỡng cho máy lạnh LG, có thể bạn giúp tôi không?
+6_vi-VN_20241203020334.wav	Tôi muốn biết cách thay lốp xe máy LG, có thể bạn giúp tôi không?
+7_vi-VN_20241203020334.wav	Tôi muốn biết cách sạc pin cho điện thoại LG, có thể bạn giúp tôi không?
+8_vi-VN_20241203020334.wav	Tôi muốn biết cách khôi phục dữ liệu cho máy tính bảng LG, có thể bạn giúp tôi không?
+9_vi-VN_20241203020334.wav	Tôi muốn biết cách cài đặt ứng dụng trên điện thoại LG, có thể bạn giúp tôi không?
+10_vi-VN_20241203020334.wav	Tôi muốn biết cách khởi động lại máy tính bảng LG, có thể bạn giúp tôi không?
+1_vi-VN_20241203023040.wav	Chào bộ phận chăm sóc khách hàng LG, tôi muốn hỏi về sản phẩm của công ty.
+2_vi-VN_20241203023041.wav	Tôi gặp vấn đề với máy giặt LG, có thể bạn giúp tôi khắc phục không?
+3_vi-VN_20241203023042.wav	Làm thế nào để tôi tắt chế độ chạy tự động trên máy giặt LG?
+4_vi-VN_20241203023042.wav	Tôi muốn biết thời gian bảo hành của máy lạnh LG là bao lâu?
+5_vi-VN_20241203023042.wav	Tôi muốn đặt lịch bảo dưỡng cho máy lạnh LG, có thể bạn giúp tôi không?
+6_vi-VN_20241203023042.wav	Tôi muốn biết cách thay lốp xe máy LG, có thể bạn giúp tôi không?
+7_vi-VN_20241203023042.wav	Tôi muốn biết cách sạc pin cho điện thoại LG, có thể bạn giúp tôi không?
+8_vi-VN_20241203023043.wav	Tôi muốn biết cách khôi phục dữ liệu cho máy tính bảng LG, có thể bạn giúp tôi không?
+9_vi-VN_20241203023043.wav	Tôi muốn biết cách cài đặt ứng dụng trên điện thoại LG, có thể bạn giúp tôi không?
+10_vi-VN_20241203023043.wav	Tôi muốn biết cách khởi động lại máy tính bảng LG, có thể bạn giúp tôi không?
