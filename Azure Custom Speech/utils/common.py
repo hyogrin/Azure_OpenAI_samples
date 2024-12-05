@@ -70,6 +70,20 @@ def get_base_model(base_url, headers, base_model_id):
     model = response.json()
     return model     
 
+def get_latest_base_model(base_url, headers, filter):
+    """
+    Retrieves the base model.
+    """
+    models_url = f'{base_url}/v3.2/models/base'
+    params = {
+        '$filter': filter
+    }
+    response = requests.get(models_url, headers=headers, params=params)
+    
+    response.raise_for_status()
+    model = response.json()
+    return model     
+
 def get_custom_model_status(base_url, headers, model_id):
     """
     Retrieves the custom model.
@@ -90,14 +104,15 @@ def create_custom_model(base_url, headers, project_id, base_model_id, datasets, 
         "displayName": display_name,
         "description": description,
         "locale": locale,
-        "baseModel": {
-            "self": f'{base_url}/v3.2/models/base/{base_model_id}'
-        },
         "datasets": [],
         "project": {
             "self": f'{base_url}/v3.2/projects/{project_id}'
         },
     }
+    if base_model_id is not None:
+        custom_model_body["baseModel"] = {
+            "self": f'{base_url}/v3.2/models/base/{base_model_id}'
+        }
     for dataset in datasets:
             custom_model_body["datasets"].append({
                 "self": f'{base_url}/v3.2/datasets/{dataset}'
@@ -166,7 +181,6 @@ def get_evaluation_results(base_url, headers, evaluation_id):
     response.raise_for_status()
     return response.json() 
 
-
 def upload_dataset_to_storage(data_folder, container_name, account_name, account_key):
     """
     Uploads datasets to Azure Blob Storage and generates SAS URLs.
@@ -223,7 +237,7 @@ def upload_dataset_to_storage(data_folder, container_name, account_name, account
     return uploaded_files, url
 
 
-def create_endpoint(base_url, headers, project_id, model_id, display_name, description, locale):
+def create_endpoint(base_url, headers, project_id, model_id, display_name, description, locale, logging_enabled):
     """
     Creates an endpoint using the model.
     """
@@ -241,7 +255,9 @@ def create_endpoint(base_url, headers, project_id, model_id, display_name, descr
         "displayName": display_name,
         "description": description,
         "locale": locale,
-        
+        "properties": {
+            "loggingEnabled": logging_enabled
+        },
     }
     
     print(endpoint_body)

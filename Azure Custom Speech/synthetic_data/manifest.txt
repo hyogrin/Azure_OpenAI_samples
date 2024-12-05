@@ -1,20 +1,10 @@
-1_vi-VN_20241203020334.wav	Chào bộ phận chăm sóc khách hàng LG, tôi muốn hỏi về sản phẩm của công ty.
-2_vi-VN_20241203020334.wav	Tôi gặp vấn đề với máy giặt LG, có thể bạn giúp tôi khắc phục không?
-3_vi-VN_20241203020334.wav	Làm thế nào để tôi tắt chế độ chạy tự động trên máy giặt LG?
-4_vi-VN_20241203020334.wav	Tôi muốn biết thời gian bảo hành của máy lạnh LG là bao lâu?
-5_vi-VN_20241203020334.wav	Tôi muốn đặt lịch bảo dưỡng cho máy lạnh LG, có thể bạn giúp tôi không?
-6_vi-VN_20241203020334.wav	Tôi muốn biết cách thay lốp xe máy LG, có thể bạn giúp tôi không?
-7_vi-VN_20241203020334.wav	Tôi muốn biết cách sạc pin cho điện thoại LG, có thể bạn giúp tôi không?
-8_vi-VN_20241203020334.wav	Tôi muốn biết cách khôi phục dữ liệu cho máy tính bảng LG, có thể bạn giúp tôi không?
-9_vi-VN_20241203020334.wav	Tôi muốn biết cách cài đặt ứng dụng trên điện thoại LG, có thể bạn giúp tôi không?
-10_vi-VN_20241203020334.wav	Tôi muốn biết cách khởi động lại máy tính bảng LG, có thể bạn giúp tôi không?
-1_vi-VN_20241203023040.wav	Chào bộ phận chăm sóc khách hàng LG, tôi muốn hỏi về sản phẩm của công ty.
-2_vi-VN_20241203023041.wav	Tôi gặp vấn đề với máy giặt LG, có thể bạn giúp tôi khắc phục không?
-3_vi-VN_20241203023042.wav	Làm thế nào để tôi tắt chế độ chạy tự động trên máy giặt LG?
-4_vi-VN_20241203023042.wav	Tôi muốn biết thời gian bảo hành của máy lạnh LG là bao lâu?
-5_vi-VN_20241203023042.wav	Tôi muốn đặt lịch bảo dưỡng cho máy lạnh LG, có thể bạn giúp tôi không?
-6_vi-VN_20241203023042.wav	Tôi muốn biết cách thay lốp xe máy LG, có thể bạn giúp tôi không?
-7_vi-VN_20241203023042.wav	Tôi muốn biết cách sạc pin cho điện thoại LG, có thể bạn giúp tôi không?
-8_vi-VN_20241203023043.wav	Tôi muốn biết cách khôi phục dữ liệu cho máy tính bảng LG, có thể bạn giúp tôi không?
-9_vi-VN_20241203023043.wav	Tôi muốn biết cách cài đặt ứng dụng trên điện thoại LG, có thể bạn giúp tôi không?
-10_vi-VN_20241203023043.wav	Tôi muốn biết cách khởi động lại máy tính bảng LG, có thể bạn giúp tôi không?
+1_vi-VN_20241205081858.wav	Tôi có vấn đề với máy giặt LG, ai có thể giúp tôi?
+2_vi-VN_20241205081858.wav	Làm thế nào để tôi khởi động lại TV LG của mình?
+3_vi-VN_20241205081858.wav	Tôi muốn đổi mới điều hòa LG của mình, cần phải làm gì?
+4_vi-VN_20241205081859.wav	Cách tắt tính năng kết nối Wi-Fi trên máy điều hòa LG?
+5_vi-VN_20241205081859.wav	Tôi không thể kết nối điện thoại của mình với TV LG, tại sao vậy?
+6_vi-VN_20241205081859.wav	Làm thế nào để tôi cài đặt lại điều khiển từ xa của TV LG?
+7_vi-VN_20241205081859.wav	Tôi muốn đặt lịch trình cho máy giặt LG của mình, cần phải làm gì?
+8_vi-VN_20241205081859.wav	Cách tắt tính năng chạy âm thanh trên TV LG?
+9_vi-VN_20241205081859.wav	Tôi muốn cập nhật phần mềm cho máy điều hòa LG của mình, cần phải làm gì?
+10_vi-VN_20241205081859.wav	Làm thế nào để tôi khôi phục lại cài đặt mặc định cho TV LG của mình?

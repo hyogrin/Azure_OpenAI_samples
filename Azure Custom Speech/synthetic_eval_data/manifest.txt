@@ -1,10 +1,10 @@
-1_it-IT_20241203083933.wav	Come posso attivare il servizio di assistenza clienti LG?
-2_it-IT_20241203083933.wav	Qual è il numero di telefono per il servizio clienti LG?
-3_it-IT_20241203083933.wav	Ho bisogno di assistenza per il mio televisore LG, chi posso contattare?
-4_it-IT_20241203083933.wav	Come posso reimpostare le impostazioni del mio smartphone LG?
-5_it-IT_20241203083934.wav	Ho un problema con la mia lavatrice LG, chi posso contattare?
-6_it-IT_20241203083934.wav	Come posso richiedere una riparazione per il mio frigorifero LG?
-7_it-IT_20241203083934.wav	Ho bisogno di assistenza per il mio condizionatore LG, chi posso contattare?
-8_it-IT_20241203083934.wav	Come posso reclutare un tecnico LG per la riparazione di un elettrodomestico?
-9_it-IT_20241203083935.wav	Ho bisogno di assistenza per il mio forno LG, chi posso contattare?
-10_it-IT_20241203083935.wav	Come posso richiedere una sostituzione per il mio prodotto LG difettoso?
+1_vi-VN_20241205081904.wav	Tôi có vấn đề với máy giặt LG, ai có thể giúp tôi?
+2_vi-VN_20241205081904.wav	Làm thế nào để tôi khởi động lại TV LG của mình?
+3_vi-VN_20241205081904.wav	Tôi muốn đổi mới điều hòa LG của mình, cần phải làm gì?
+4_vi-VN_20241205081904.wav	Cách tắt tính năng kết nối Wi-Fi trên máy điều hòa LG?
+5_vi-VN_20241205081904.wav	Tôi không thể kết nối điện thoại của mình với TV LG, tại sao vậy?
+6_vi-VN_20241205081904.wav	Làm thế nào để tôi cài đặt lại điều khiển từ xa của TV LG?
+7_vi-VN_20241205081905.wav	Tôi muốn đặt lịch trình cho máy giặt LG của mình, cần phải làm gì?
+8_vi-VN_20241205081905.wav	Cách tắt tính năng chạy âm thanh trên TV LG?
+9_vi-VN_20241205081905.wav	Tôi muốn cập nhật phần mềm cho máy điều hòa LG của mình, cần phải làm gì?
+10_vi-VN_20241205081905.wav	Làm thế nào để tôi khôi phục lại cài đặt mặc định cho TV LG của mình?
