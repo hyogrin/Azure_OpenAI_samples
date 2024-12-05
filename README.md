@@ -1,5 +1,10 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (05-Dec-2024)
+### Azure Custom Speech for multi-language<br>
+- Refactored to make it easier to test custom models for a given language by adding language-specific settings. Added a function to the 3_evaluate_custom_model notebook to retrieve detailed WER information from the notebook based on whether there are insertions, substitutions, or deletions.  <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20Custom%20Speech/3_evaluate_custom_model.ipynb">Go to notebook</a>
+    > 언어별 설정을 추가하면 간단히 해당 언어에 맞는 커스텀 모델을 테스트해볼 수 있도록 리펙토링했습니다. insertion, substitution, deletion 여부에 따라 상세한 WER정보를 노트북에서 조회하는 함수를 3_evaluate_custom_model 노트북에 추가했습니다. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20Custom%20Speech/3_evaluate_custom_model.ipynb">Go to notebook</a>
+
 ## 🔥New content (11-Nov-2024)
 ### Azure Custom Speech E2E Training with Python<br>
 - Azure AI Speech is a managed service that provides speech capabilities such as speech-to-text, text-to-speech, voice translation, and speaker recognition. In this lab, you will learn the entire end-to-end process of training a custom speech-to-text (STT) model optimised for a specific language and use case based on synthetic data. You can practice generating synthetic text data (phi3.5), converting generated text files to audio files (text-to-speech), training(speech-to-text), evaluating, and deploying custom AI speech models based on synthetic text/audio files. In addition to generating synthetic data, you can also upload the speech data you use in the field to a specific folder and upload it to the storage account with simple notebook code to proceed with dataset creation, training, and evaluation.  If you're looking to train custom speech models with different types of datasets to improve your word error rate (WER), this Python SDK and REST API-based handson makes it easy to automate your end-to-end model training and evaluation pipeline and scale your transformations.  
