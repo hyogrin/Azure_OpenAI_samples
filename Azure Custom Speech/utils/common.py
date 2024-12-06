@@ -4,6 +4,9 @@ import json
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, generate_blob_sas, BlobSasPermissions
 import os
 import datetime
+import html
+import pandas as pd
+from IPython.display import display, HTML
 
 
 def create_project(base_url, headers, name, description, locale):
@@ -299,3 +302,104 @@ def delete_project(base_url, headers, project_id):
     response = requests.delete(project_url, headers=headers)
     status = response.raise_for_status()
     print(f'The project deleted: {project_id}, {status}')    
+
+
+def html_scoring_result(base_url, headers, evaluation_ids, uploaded_files):
+    for display_name in uploaded_files:
+        print(f"Evaluation {display_name} Scoring results")
+        print("=====================================")
+        files = get_evaluation_results_files(base_url, headers, evaluation_ids[display_name])
+        file_name = ""
+        for wav_file in files['values']:
+            if(file_name != wav_file['name'].split('.wav')[0]):
+                file_name = wav_file['name'].split('.wav')[0]
+                print(file_name + ".wav")
+            display_result1 = ""
+            display_result2 = ""
+            if wav_file['name'].endswith('.model1_score.json'):
+                model1_content_url = wav_file['links']['contentUrl']
+                model1_scoring_result = get_scoring_result(headers, model1_content_url)
+                for result1 in model1_scoring_result:
+                    display_result1 += color_text(result1)
+            elif wav_file['name'].endswith('.model2_score.json'):
+                model2_content_url = wav_file['links']['contentUrl']
+                model2_scoring_result = get_scoring_result(headers, model2_content_url)
+                for result2 in model2_scoring_result:
+                    display_result2 += color_text(result2)
+            if(display_result1 != ""):
+                print(f"Model1 - base (lexical)")
+                display(HTML(display_result1))
+            if(display_result2 != ""):
+                print(f"Model2 - custom (lexical)")
+                display(HTML(display_result2))
+
+def md_table_scoring_result(base_url, headers, evaluation_ids, uploaded_files):
+    results = []
+    for display_name in uploaded_files:
+        print(f"Evaluation {display_name} Scoring results")
+        print("=====================================")
+        files = get_evaluation_results_files(base_url, headers, evaluation_ids[display_name])
+        file_name = ""
+        for wav_file in files['values']:
+            if(file_name != wav_file['name'].split('.wav')[0]):
+                file_name = wav_file['name'].split('.wav')[0]
+            display_result1 = ""
+            display_result2 = ""
+            if wav_file['name'].endswith('.model1_score.json'):
+                model1_content_url = wav_file['links']['contentUrl']
+                model1_scoring_result = get_scoring_result(headers, model1_content_url)
+                for result1 in model1_scoring_result:
+                    display_result1 += result1
+            elif wav_file['name'].endswith('.model2_score.json'):
+                model2_content_url = wav_file['links']['contentUrl']
+                model2_scoring_result = get_scoring_result(headers, model2_content_url)
+                for result2 in model2_scoring_result:
+                    display_result2 += result2
+            results.append({
+                'file_name': display_name + "_"+ file_name + ".wav",
+                'display_result1': display_result1,
+                'display_result2': display_result2
+            })
+
+    # Create a DataFrame to store the results
+    results_df = pd.DataFrame(results)
+    results_df = results_df.groupby('file_name', as_index=False).agg({
+            'display_result1': ' '.join,
+            'display_result2': ' '.join
+        })
+
+
+    # Save the DataFrame to an md file with table formatting
+    file_name = ""
+    with open('scoring_results.md', 'w') as f:
+        f.write('| Eval Name_Wav File Name | Model1 - base (lexical) | Model2 - custom (lexical) |\n')
+        f.write('|-----------|-------------------------|---------------------------|\n')
+        for index, row in results_df.iterrows():
+            f.write(f"| {row['file_name']} | {color_text(row['display_result1'])} | {color_text(row['display_result2'])} |\n")         
+
+
+def get_evaluation_results_files(base_url, headers, evaluation_id):
+    """
+    Prints the Word Error Rate (WER) and other evaluation metrics.
+    """
+    evaluation_url = f'{base_url}/v3.2/evaluations/{evaluation_id}/files'
+    response = requests.get(evaluation_url, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+def color_text(text):
+    text = '<span style="background:white;color: black;">' + text + '</span>'
+    text = text.replace('<insertion>', '<span style="color: green;">').replace('</insertion>', '</span>')
+    text = text.replace('<substitution>', '<span style="color: blue;">').replace('</substitution>', '</span>')
+    text = text.replace('<deletion>', '<span style="color: red;">').replace('</deletion>', '</span>')
+    return text
+
+def get_scoring_result(headers, content_url):
+    content = []
+    response = requests.get(content_url, headers=headers)
+    response.raise_for_status()
+    content = response.json()
+    result = []
+    for phrase in content['recognizedPhrases']:
+        result.append(phrase['nBest'][0]['scoringResult'].replace(',', ' '))
+    return result   
