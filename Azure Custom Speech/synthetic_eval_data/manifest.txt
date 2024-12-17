@@ -1,10 +1,10 @@
-1_vi-VN_20241206060327.wav	Tôi có vấn đề với máy giặt LG, ai có thể giúp tôi?
-2_vi-VN_20241206060328.wav	Làm thế nào để tôi khởi động lại TV LG của mình?
-3_vi-VN_20241206060328.wav	Tôi muốn đổi mới điều hòa LG của mình, cần phải làm gì?
-4_vi-VN_20241206060328.wav	Cách tắt tính năng kết nối Wi-Fi trên máy điều hòa LG?
-5_vi-VN_20241206060328.wav	Tôi không thể kết nối điện thoại của mình với TV LG, tại sao vậy?
-6_vi-VN_20241206060328.wav	Làm thế nào để tôi cài đặt lại điều khiển từ xa của TV LG?
-7_vi-VN_20241206060328.wav	Tôi muốn đặt lịch trình cho máy giặt LG của mình, cần phải làm gì?
-8_vi-VN_20241206060328.wav	Cách tắt tính năng chạy âm thanh trên TV LG?
-9_vi-VN_20241206060328.wav	Tôi muốn cập nhật phần mềm cho máy điều hòa LG của mình, cần phải làm gì?
-10_vi-VN_20241206060328.wav	Làm thế nào để tôi khôi phục lại cài đặt mặc định cho TV LG của mình?
+1_vi-VN_20241217132830.wav	Chào bộ phận hỗ trợ khách hàng của Contoso Electronics, tôi muốn hỏi về sản phẩm mới nhất của công ty.
+2_vi-VN_20241217132830.wav	Tôi đang gặp vấn đề với máy tính xách tay của mình, có thể bạn có thể giúp tôi khôi phục dữ liệu không?
+3_vi-VN_20241217132830.wav	Tôi muốn đổi sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi quy trình đổi sản phẩm không?
+4_vi-VN_20241217132831.wav	Tôi muốn hủy đơn hàng của mình, có thể bạn hướng dẫn tôi cách hủy đơn hàng không?
+5_vi-VN_20241217132831.wav	Tôi muốn mua thêm phụ kiện cho máy tính xách tay của mình, có thể bạn hướng dẫn tôi cách mua phụ kiện không?
+6_vi-VN_20241217132831.wav	Tôi muốn biết thời gian giao hàng của sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách kiểm tra thời gian giao hàng không?
+7_vi-VN_20241217132831.wav	Tôi muốn biết chính sách bảo hành của sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách kiểm tra chính sách bảo hành không?
+8_vi-VN_20241217132832.wav	Tôi muốn biết cách sử dụng sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách sử dụng sản phẩm không?
+9_vi-VN_20241217132832.wav	Tôi muốn biết cách truy cập vào tài khoản của tôi trên website của Contoso Electronics, có thể bạn hướng dẫn tôi cách truy cập vào tài khoản không?
+10_vi-VN_20241217132833.wav	Tôi muốn biết cách liên hệ với bộ phận hỗ trợ khách hàng của Contoso Electronics, có thể bạn hướng dẫn tôi cách liên hệ không?
