@@ -1,0 +1,5 @@
+1_it-IT_20241217095002.wav	Può spiegare come funziona il sistema di ricarica wireless del nostro prodotto? Il sistema di ricarica wireless utilizza la tecnologia di induzione elettromagnetica per trasferire energia senza fili.
+3_it-IT_20241217095004.wav	Qual è la durata della batteria del nostro prodotto? La batteria del nostro prodotto ha una durata di circa 10 ore con una singola carica.
+5_it-IT_20241217095005.wav	Come posso risolvere il problema di connessione Bluetooth? Assicurati che il dispositivo sia nelle vicinanze e che la funzione Bluetooth sia attivata su entrambi i dispositivi.
+7_it-IT_20241217095005.wav	Qual è il processo di restituzione del prodotto difettoso? Contatta il nostro servizio clienti e forniamo le istruzioni per la restituzione.
+9_it-IT_20241217095006.wav	Come posso aggiornare il software del mio dispositivo? Accedi alle impostazioni del dispositivo e seleziona l'opzione 'Aggiornamento software'.
