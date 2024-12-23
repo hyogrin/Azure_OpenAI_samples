@@ -234,3 +234,10 @@ Azure Custom Speech/synthetic_data/3_it-IT_20241211104254.wav
 Azure Custom Speech/synthetic_data/3_it-IT_20241211104256.wav
 Azure Custom Speech/synthetic_data/3_it-IT_20241211104259.wav
 Azure Custom Speech/synthetic_data/3_it-IT_20241211104301.wav
+
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+
+.ipynb_checkpoints/

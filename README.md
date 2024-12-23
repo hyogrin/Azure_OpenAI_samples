@@ -1,5 +1,11 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (23-Dec-2024)
+### Azure Custom Speech <br>
+- Added Audio Data Augmentation using [Audiomentations](https://github.com/iver56/audiomentations). Audiomentations supports both mono and stereo audio and integrates seamlessly with common audio processing workflows. It's lightweight, efficient, and helps simulate real-world audio conditions for better generalization in models.
+
+Please do not forget to install the audiomentations package. Install with `pip install audiomentations` or see `requirements.txt`.
+
 ## 🔥New Feature (05-Dec-2024)
 ### Azure Custom Speech for multi-language<br>
 - Refactored to make it easier to test custom models for a given language by adding language-specific settings. Added a function to the 3_evaluate_custom_model notebook to retrieve detailed WER information from the notebook based on whether there are insertions, substitutions, or deletions.  <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20Custom%20Speech/3_evaluate_custom_model.ipynb">Go to notebook</a>
