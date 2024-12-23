@@ -16,6 +16,7 @@ https://learn.microsoft.com/en-us/azure/ai-services/speech-service/rest-speech-t
 
 ## Author
 Date of creation: 15-Oct-2024<br>
-Updated: 5-Dec-2024<br>
+Updated: 23-Dec-2024<br>
 <br>
-Hyo Choi | hyo.choi@microsoft.com | https://www.linkedin.com/in/hyogrin/ 
+Hyo Choi | hyo.choi@microsoft.com | https://www.linkedin.com/in/hyogrin/<br>
+Daekeun Kim| daekeun.kim@microsoft.com | https://www.linkedin.com/in/daekeun-kim/
