@@ -7,6 +7,7 @@ import datetime
 import html
 import pandas as pd
 from IPython.display import display, HTML
+from tqdm import tqdm
 
 
 def create_project(base_url, headers, name, description, locale):
@@ -128,6 +129,16 @@ def create_custom_model(base_url, headers, project_id, base_model_id, datasets, 
     custom_model_id = custom_model['self'].split('/')[-1]
     print(f'custom model job created with ID: {custom_model_id}')
     return custom_model_id
+
+def get_dataset_status(base_url, headers, dataset_id):
+    """
+    Polls the dataset job until it completes.
+    """
+    dataset_url = f'{base_url}/v3.2/datasets/{dataset_id}'
+    response = requests.get(dataset_url, headers=headers)
+    response.raise_for_status()
+    dataset_info = response.json()
+    return dataset_info['status']
 
 def create_evaluation(base_url, headers, project_id, dataset_id, model1_id, model2_id, display_name, description, locale):
     """
@@ -403,3 +414,18 @@ def get_scoring_result(headers, content_url):
     for phrase in content['recognizedPhrases']:
         result.append(phrase['nBest'][0]['scoringResult'].replace(',', ' '))
     return result   
+
+def monitor_status(base_url, headers, get_method, id):
+    with tqdm(total=3, desc="Running Status", unit="step") as pbar:
+        status = get_method(base_url, headers, id)
+        if status == "NotStarted":
+            pbar.update(1)
+        while status != "Succeeded" and status != "Failed":
+            if status == "Running" and pbar.n < 2:
+                pbar.update(1)
+            print(f"Current Status: {status}")
+            time.sleep(10)
+            status = get_method(base_url, headers, id)
+        while(pbar.n < 3):
+            pbar.update(1)
+        print("Operation Completed")    
