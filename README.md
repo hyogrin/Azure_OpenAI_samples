@@ -1,5 +1,15 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (12-Jan-2025)
+### Azure AI Evaluation SDK <br>
+- Evaluate the quality and safety of your generative AI applications with industry standard metrics to compare and choose the best version based on your need with built-in evaluators in Azure AI Evaluation SDK <a href="">Go to notebook</a>
+    > Azure AI Evaluation SDK의 기본 제공 Evaluator들을 사용하여 생성 AI 애플리케이션의 품질 및 안전성을 평가하고 필요에 따른 가장 최적의 버전을 비교하고 선택하세요. <a href="">Go to notebook</a>
+
+### o1 GA new features Test <br>
+- Test the most basic way to use the o1(GA) with Vision model, Structured Output and gradio sample application as your playgournd <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/O1%20MultiModal/1_o1-ga-multi-modal.ipynb">Go to notebook</a>
+    > 비전 모델, 구조화된 출력 및 그라디오 샘플 애플리케이션을 플레이그라운드로 사용하여 o1(GA)를 사용하는 가장 기본적인 방법을 테스트해 보세요. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/O1%20MultiModal/1_o1-ga-multi-modal.ipynb">Go to notebook</a>
+
+
 ## 🔥New Feature (23-Dec-2024)
 ### Azure Custom Speech <br>
 - Added Audio Data Augmentation using [Audiomentations](https://github.com/iver56/audiomentations). Audiomentations supports both mono and stereo audio and integrates seamlessly with common audio processing workflows. It's lightweight, efficient, and helps simulate real-world audio conditions for better generalization in models.

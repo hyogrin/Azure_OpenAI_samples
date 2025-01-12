@@ -33,6 +33,8 @@ eva_dataset/*
 plain_text/*
 synthetic_data/*
 train_dataset/*
+.gradio/*
+.gradio/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
