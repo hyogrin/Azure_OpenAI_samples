@@ -2,8 +2,8 @@
 
 ## 🔥New Feature (12-Jan-2025)
 ### Azure AI Evaluation SDK <br>
-- Evaluate the quality and safety of your generative AI applications with industry standard metrics to compare and choose the best version based on your need with built-in evaluators in Azure AI Evaluation SDK <a href="">Go to notebook</a>
-    > Azure AI Evaluation SDK의 기본 제공 Evaluator들을 사용하여 생성 AI 애플리케이션의 품질 및 안전성을 평가하고 필요에 따른 가장 최적의 버전을 비교하고 선택하세요. <a href="">Go to notebook</a>
+- Evaluate the quality and safety of your generative AI applications with industry standard metrics to compare and choose the best version based on your need with built-in evaluators in Azure AI Evaluation SDK <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20AI%20Evaluation%20SDK/quality-evaluators.ipynb">Go to notebook</a>
+    > Azure AI Evaluation SDK의 기본 제공 Evaluator들을 사용하여 생성 AI 애플리케이션의 품질 및 안전성을 평가하고 필요에 따른 가장 최적의 버전을 비교하고 선택하세요. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20AI%20Evaluation%20SDK/quality-evaluators.ipynb">Go to notebook</a>
 
 ### o1 GA new features Test <br>
 - Test the most basic way to use the o1(GA) with Vision model, Structured Output and gradio sample application as your playgournd <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/O1%20MultiModal/1_o1-ga-multi-modal.ipynb">Go to notebook</a>
