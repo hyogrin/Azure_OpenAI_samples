@@ -1,5 +1,5 @@
-1_it-IT_20241217095002.wav	Può spiegare come funziona il sistema di ricarica wireless del nostro prodotto? Il sistema di ricarica wireless utilizza la tecnologia di induzione elettromagnetica per trasferire energia senza fili.
-3_it-IT_20241217095004.wav	Qual è la durata della batteria del nostro prodotto? La batteria del nostro prodotto ha una durata di circa 10 ore con una singola carica.
-5_it-IT_20241217095005.wav	Come posso risolvere il problema di connessione Bluetooth? Assicurati che il dispositivo sia nelle vicinanze e che la funzione Bluetooth sia attivata su entrambi i dispositivi.
-7_it-IT_20241217095005.wav	Qual è il processo di restituzione del prodotto difettoso? Contatta il nostro servizio clienti e forniamo le istruzioni per la restituzione.
-9_it-IT_20241217095006.wav	Come posso aggiornare il software del mio dispositivo? Accedi alle impostazioni del dispositivo e seleziona l'opzione 'Aggiornamento software'.
+1_vi-VN_20241218023905.wav	Chào bộ phận hỗ trợ khách hàng của Contoso Electronics, tôi muốn hỏi về sản phẩm mới nhất của công ty. Chào bạn! Sản phẩm mới nhất của chúng tôi là máy tính bảng Contoso Tab 10, có màn hình 10 inch và pin sạc lâu dài.
+3_vi-VN_20241218023907.wav	Tôi có thể đổi sản phẩm này không nếu nó không đáp ứng được nhu cầu của tôi? Có, bạn có thể đổi sản phẩm trong vòng 30 ngày kể từ ngày mua.
+5_vi-VN_20241218023908.wav	Tôi có thể trả lại sản phẩm này không nếu tôi không hài lòng với nó? Có, bạn có thể trả lại sản phẩm trong vòng 30 ngày kể từ ngày mua.
+7_vi-VN_20241218023909.wav	Tôi có thể mua sản phẩm này trực tuyến không? Có, bạn có thể mua sản phẩm trực tuyến trên website của chúng tôi.
+9_vi-VN_20241218023909.wav	Tôi có thể đặt hàng trước sản phẩm này không? Có, bạn có thể đặt hàng trước sản phẩm trên website của chúng tôi.
