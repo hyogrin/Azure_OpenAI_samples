@@ -10,3 +10,4 @@ azure-storage-blob==12.24.0
 pandas==2.2.3
 audiomentations==0.38.0
 pyloudnorm==0.1.1
+jiwer==3.0.5

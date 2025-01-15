@@ -1,0 +1,10 @@
+1_vi-VN_20241217132830.wav	Chào bộ phận hỗ trợ khách hàng của Contoso Electronics, tôi muốn hỏi về sản phẩm mới nhất của công ty.
+10_vi-VN_20241217132833.wav	Tôi muốn biết cách liên hệ với bộ phận hỗ trợ khách hàng của Contoso Electronics, có thể bạn hướng dẫn tôi cách liên hệ không?
+2_vi-VN_20241217132830.wav	Tôi đang gặp vấn đề với máy tính xách tay của mình, có thể bạn có thể giúp tôi khôi phục dữ liệu không?
+3_vi-VN_20241217132830.wav	Tôi muốn đổi sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi quy trình đổi sản phẩm không?
+4_vi-VN_20241217132831.wav	Tôi muốn hủy đơn hàng của mình, có thể bạn hướng dẫn tôi cách hủy đơn hàng không?
+5_vi-VN_20241217132831.wav	Tôi muốn mua thêm phụ kiện cho máy tính xách tay của mình, có thể bạn hướng dẫn tôi cách mua phụ kiện không?
+6_vi-VN_20241217132831.wav	Tôi muốn biết thời gian giao hàng của sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách kiểm tra thời gian giao hàng không?
+7_vi-VN_20241217132831.wav	Tôi muốn biết chính sách bảo hành của sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách kiểm tra chính sách bảo hành không?
+8_vi-VN_20241217132832.wav	Tôi muốn biết cách sử dụng sản phẩm mới nhất của Contoso Electronics, có thể bạn hướng dẫn tôi cách sử dụng sản phẩm không?
+9_vi-VN_20241217132832.wav	Tôi muốn biết cách truy cập vào tài khoản của tôi trên website của Contoso Electronics, có thể bạn hướng dẫn tôi cách truy cập vào tài khoản không?
