@@ -35,6 +35,11 @@ synthetic_data/*
 train_dataset/*
 .gradio/*
 .gradio/
+Azure Custom Speech/output/*
+AI Search with AOAI/figures/*
+Azure Custom Speech/eval_dataset/*
+Azure Custom Speech/train_dataset/*
+Azure Custom Speech/synthetic_data/*
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -170,72 +175,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-Azure Custom Speech/output/1_en_20241104093736.wav
-Azure Custom Speech/output/1_ko_20241104093737.wav
-Azure Custom Speech/output/1_vi_20241104093735.wav
-Azure Custom Speech/output/2_en_20241104093738.wav
-Azure Custom Speech/output/2_ko_20241104093739.wav
-Azure Custom Speech/output/2_vi_20241104093738.wav
-Azure Custom Speech/output/3_en_20241104093739.wav
-Azure Custom Speech/output/3_ko_20241104093740.wav
-Azure Custom Speech/output/3_vi_20241104093739.wav
-Azure Custom Speech/output/4_en_20241104093740.wav
-Azure Custom Speech/output/4_ko_20241104093741.wav
-Azure Custom Speech/output/4_vi_20241104093740.wav
-Azure Custom Speech/output/5_en_20241104093741.wav
-Azure Custom Speech/output/5_ko_20241104093742.wav
-Azure Custom Speech/output/5_vi_20241104093741.wav
-Azure Custom Speech/output/6_en_20241104093743.wav
-Azure Custom Speech/output/6_ko_20241104093743.wav
-Azure Custom Speech/output/6_vi_20241104093742.wav
-Azure Custom Speech/output/7_en_20241104093744.wav
-Azure Custom Speech/output/7_ko_20241104093745.wav
-Azure Custom Speech/output/7_vi_20241104093744.wav
-Azure Custom Speech/output/8_en_20241104093745.wav
-Azure Custom Speech/output/8_ko_20241104093746.wav
-Azure Custom Speech/output/8_vi_20241104093745.wav
-Azure Custom Speech/output/9_en_20241104093747.wav
-Azure Custom Speech/output/9_ko_20241104093747.wav
-Azure Custom Speech/output/9_vi_20241104093746.wav
-Azure Custom Speech/output/10_en_20241104093748.wav
-Azure Custom Speech/output/10_ko_20241104093748.wav
-Azure Custom Speech/output/10_vi_20241104093747.wav
-Azure Custom Speech/eval_dataset/Call2.zip
-Azure Custom Speech/eval_dataset/Call6.zip
-Azure Custom Speech/eval_dataset/Call17.zip
-Azure Custom Speech/eval_dataset/Call18.zip
-Azure Custom Speech/eval_dataset/Call19.zip
-Azure Custom Speech/eval_dataset/Call23.zip
-Azure Custom Speech/eval_dataset/Call25.zip
-Azure Custom Speech/eval_dataset/Call27.zip
-Azure Custom Speech/eval_dataset/Call30.zip
-Azure Custom Speech/train_dataset/Call2.zip
-Azure Custom Speech/train_dataset/Call6.zip
-Azure Custom Speech/train_dataset/Call17.zip
-Azure Custom Speech/train_dataset/Call19.zip
-Azure Custom Speech/train_dataset/Call25.zip
-Azure Custom Speech/train_dataset/Call30.zip
-Azure Custom Speech/synthetic_data/1_it-IT_20241211104250.wav
-Azure Custom Speech/synthetic_data/1_it-IT_20241211104253.wav
-Azure Custom Speech/synthetic_data/1_it-IT_20241211104255.wav
-Azure Custom Speech/synthetic_data/1_it-IT_20241211104258.wav
-Azure Custom Speech/synthetic_data/1_it-IT_20241211104300.wav
-Azure Custom Speech/synthetic_data/1_vi-VN_20241206060253.wav
-Azure Custom Speech/synthetic_data/1_vi-VN_20241206060254.wav
-Azure Custom Speech/synthetic_data/1_vi-VN_20241206060301.wav
-Azure Custom Speech/synthetic_data/2_it-IT_20241211104251.wav
-Azure Custom Speech/synthetic_data/2_it-IT_20241211104253.wav
-Azure Custom Speech/synthetic_data/2_it-IT_20241211104256.wav
-Azure Custom Speech/synthetic_data/2_it-IT_20241211104258.wav
-Azure Custom Speech/synthetic_data/2_it-IT_20241211104301.wav
-Azure Custom Speech/synthetic_data/2_vi-VN_20241206060254.wav
-Azure Custom Speech/synthetic_data/2_vi-VN_20241206060256.wav
-Azure Custom Speech/synthetic_data/2_vi-VN_20241206060303.wav
-Azure Custom Speech/synthetic_data/3_it-IT_20241211104251.wav
-Azure Custom Speech/synthetic_data/3_it-IT_20241211104254.wav
-Azure Custom Speech/synthetic_data/3_it-IT_20241211104256.wav
-Azure Custom Speech/synthetic_data/3_it-IT_20241211104259.wav
-Azure Custom Speech/synthetic_data/3_it-IT_20241211104301.wav
+
 
 .DS_Store
 ._.DS_Store

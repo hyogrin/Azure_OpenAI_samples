@@ -4,3 +4,17 @@ python-dotenv==1.0.0
 tenacity==9.0.0
 pandas==2.1.2 
 tiktoken==0.7.0
+httpx==0.27.0
+PyMuPDF
+azure-ai-documentintelligence
+azure-core
+azure-identity
+cffi
+langchain
+pillow
+requests
+langchain-openai
+langchain-community
+langchain-core
+langchain-text-splitters
+langchainhub
