@@ -40,6 +40,7 @@ AI Search with AOAI/figures/*
 Azure Custom Speech/eval_dataset/*
 Azure Custom Speech/train_dataset/*
 Azure Custom Speech/synthetic_data/*
+AI Search with AOAI/sample_report.cache
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
