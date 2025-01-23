@@ -11,3 +11,6 @@ pandas==2.2.3
 audiomentations==0.38.0
 pyloudnorm==0.1.1
 jiwer==3.0.5
+soundfile==0.13.0
+datasets==3.2.0
+librosa==0.10.2.post1

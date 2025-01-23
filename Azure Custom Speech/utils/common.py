@@ -428,4 +428,4 @@ def monitor_status(base_url, headers, get_method, id):
             status = get_method(base_url, headers, id)
         while(pbar.n < 3):
             pbar.update(1)
-        print("Operation Completed")    
+        print(f"Current Status: {status}, Operation Completed")    

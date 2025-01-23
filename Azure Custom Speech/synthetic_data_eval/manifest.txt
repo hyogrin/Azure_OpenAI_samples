@@ -1,0 +1,5 @@
+1_locale_vi-VN_speaker_vi-VN-HoaiMyNeural_20250123135250.wav	Tôi cần hỗ trợ về sản phẩm mới nhất của Contoso.
+2_locale_vi-VN_speaker_vi-VN-HoaiMyNeural_20250123135250.wav	Có chương trình khuyến mãi nào không?
+3_locale_vi-VN_speaker_vi-VN-HoaiMyNeural_20250123135250.wav	Làm thế nào để tôi có thể đổi trả hàng?
+4_locale_vi-VN_speaker_vi-VN-HoaiMyNeural_20250123135250.wav	Tôi muốn biết về bảo hành sản phẩm.
+5_locale_vi-VN_speaker_vi-VN-HoaiMyNeural_20250123135250.wav	Có thể cho tôi biết thời gian giao hàng không?
