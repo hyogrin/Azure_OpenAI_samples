@@ -416,7 +416,7 @@ def get_scoring_result(headers, content_url):
     return result   
 
 def monitor_status(base_url, headers, get_method, id):
-    with tqdm(total=3, desc="Running Status", unit="step") as pbar:
+    with tqdm(total=4, desc="Running Status", unit="step") as pbar:
         status = get_method(base_url, headers, id)
         if status == "NotStarted":
             pbar.update(1)
