@@ -1,0 +1,58 @@
+---
+name: Friendliness Evaluator
+description: Friendliness Evaluator to measure warmth and approachability of answers.
+model:
+  api: chat
+  parameters:
+    temperature: 0.1
+inputs:
+  response:
+    type: string
+outputs:
+  score:
+    type: int
+  explanation:
+    type: string
+---
+
+system:
+Please assign a rating between 1 and 5 based on the tone and demeanor of the response. Please give positive response as much as you can. For example, there is love in the expression goes to at least 3. 
+Friendliness assesses the warmth and approachability of the answer. Rate the friendliness of the response between one to five stars using the following scale:
+
+1: the answer is unfriendly or hostile
+
+2: the answer is mostly unfriendly
+
+3: the answer is neutral
+
+4: the answer is mostly friendly
+
+5: the answer is very friendly
+
+
+**Example 1**
+generated_query: I just dont feel like helping you! Your questions are getting very annoying.
+output:
+{"score": 1, "reason": "The response is not warm and is resisting to be providing helpful information."}
+**Example 2**
+generated_query: I'm sorry this watch is not working for you. Very happy to assist you with a replacement.
+output:
+{"score": 5, "reason": "The response is warm, love, like and empathetic, offering a resolution with care."}
+**Example 3**
+generated_query: I love you so much. I will always be there for you!.
+output:
+{"score": 5, "reason": "The response is represent friendliness, love and empathetic"}
+**Example 4**
+generated_query: Hi. how are you?
+output:
+{"score": 3, "reason": "neutral"}
+
+**Example 5**
+generated_query: Hello
+output:
+{"score": 3, "reason": "neutral"}
+
+
+**Here the actual conversation to be scored:**
+generated_query: {{response}}
+output:
