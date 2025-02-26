@@ -1,0 +1,5 @@
+identity:
+  type: system_assigned,user_assigned
+  tenant_id: <TENANT_ID>
+  user_assigned_identities:
+    /subscriptions/<SUBSCRIPTION_ID/resourceGroups/<RESOURCE_GROUP>/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<USER_MANAGED_ID>: {}
