@@ -1,0 +1,10 @@
+inputs:
+  response:
+    type: string
+    default: ''
+  ground_truth:
+    type: string
+    default: ''
+entry: _exact_match_cloud:ExactMatchEvaluator
+environment:
+  python_requirements_txt: requirements.txt

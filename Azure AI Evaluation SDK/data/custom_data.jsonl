@@ -1,0 +1,27 @@
+{"query":"OLED TV ABC 모델과 CDE 모델 기능 차이","actual":"Product Comparison","predicted":"MDE"}
+{"query":"Contoso TV에서 Hue Sync 기능 사용하는 방법 알려줘","actual":"MDE","predicted":"MDE"}
+{"query":"Contoso TV UHD 모델과 QLED 모델 기능 차이","actual":"Product Comparison","predicted":"Product Comparison"}
+{"query":"8K TV에서 블루투스 연결하는 방법 알려줘","actual":"MDE","predicted":"MDE"}
+{"query":"슈드레서 사용 장점","actual":"Product Description","predicted":"Product Description"}
+{"query":"'기기에서만 데이터 처리' 기능 설명","actual":"Product Description","predicted":"Product Description"}
+{"query":"process data only on device 기능이 뭐야","actual":"Product Description","predicted":"Product Description"}
+{"query":"AAAAAAAAA 모델에서 AI 정온 모드가 뭐야","actual":"Product Description","predicted":"Product Description"}
+{"query":"제일 큰 TV 알려줘","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"가장 작은 TV 알려줘","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"90인치 이상 TV 추천","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"80인치대 TV 추천","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"70인치 이하 TV 어떤 제품 괜찮아","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"TV 추천해줘","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"2025년 출시한 TV 추천해줘","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"벽걸이형 TV 추천","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"스탠드형 TV 추천","actual":"Product Recommendation","predicted":"Product Recommendation"}
+{"query":"액션캠에서 울트라 8K 영상 촬영 방법","actual":"Usage Manual","predicted":"Usage Manual"}
+{"query":"최신 스마트폰에서 카메라 프로 모드 사용 방법","actual":"Usage Manual","predicted":"Usage Manual"}
+{"query":"새 핸드폰에 데이터 옮기는 법 알려줘","actual":"Usage Manual","predicted":"MDE"}
+{"query":"노트북 초기화 방법","actual":"Usage Manual","predicted":"Usage Manual"}
+{"query":"Contoso 냉장고 온도 조절 방법","actual":"Usage Manual","predicted":"Usage Manual"}
+{"query":"폰으로 TV 제어하는 방법 알려줘","actual":"MDE","predicted":"MDE"}
+{"query":"냉장고 AI 절약 모드 설정 방법 알려줘","actual":"MDE","predicted":"MDE"}
+{"query":"스마트폰에서 TV 화면 미러링하는 방법","actual":"MDE","predicted":"MDE"}
+{"query":"스마트폰에서 TV 화면 공유하는 방법","actual":"MDE","predicted":"MDE"}
+{"query":"스마트폰에서 TV 화면 복제하는 방법","actual":"MDE","predicted":"MDE"}

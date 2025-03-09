@@ -1,0 +1,28 @@
+query,actual,predicted
+OLED TV ABC 모델과 CDE 모델 기능 차이,Product Comparison,MDE
+Contoso TV에서 Hue Sync 기능 사용하는 방법 알려줘,MDE,MDE
+Contoso TV UHD 모델과 QLED 모델 기능 차이,Product Comparison,Product Comparison
+8K TV에서 블루투스 연결하는 방법 알려줘,MDE,MDE
+슈드레서 사용 장점,Product Description,Product Description
+'기기에서만 데이터 처리' 기능 설명,Product Description,Product Description
+process data only on device 기능이 뭐야,Product Description,Product Description
+AAAAAAAAA 모델에서 AI 정온 모드가 뭐야,Product Description,Product Description
+제일 큰 TV 알려줘,Product Recommendation,Product Recommendation
+가장 작은 TV 알려줘,Product Recommendation,Product Recommendation
+90인치 이상 TV 추천,Product Recommendation,Product Recommendation
+80인치대 TV 추천,Product Recommendation,Product Recommendation
+70인치 이하 TV 어떤 제품 괜찮아,Product Recommendation,Product Recommendation
+TV 추천해줘,Product Recommendation,Product Recommendation
+2025년 출시한 TV 추천해줘,Product Recommendation,Product Recommendation
+벽걸이형 TV 추천,Product Recommendation,Product Recommendation
+스탠드형 TV 추천,Product Recommendation,Product Recommendation
+액션캠에서 울트라 8K 영상 촬영 방법,Usage Manual,Usage Manual
+최신 스마트폰에서 카메라 프로 모드 사용 방법,Usage Manual,Usage Manual
+새 핸드폰에 데이터 옮기는 법 알려줘,Usage Manual,MDE
+노트북 초기화 방법,Usage Manual,Usage Manual
+Contoso 냉장고 온도 조절 방법,Usage Manual,Usage Manual
+폰으로 TV 제어하는 방법 알려줘,MDE,MDE
+냉장고 AI 절약 모드 설정 방법 알려줘,MDE,MDE
+스마트폰에서 TV 화면 미러링하는 방법,MDE,MDE
+스마트폰에서 TV 화면 공유하는 방법,MDE,MDE
+스마트폰에서 TV 화면 복제하는 방법,MDE,MDE
