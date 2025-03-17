@@ -10,7 +10,7 @@ Before starting, you should meet the following requirements:
 
 - Need to grant ***Storage Blob Data Contributor*** at the storage of AI Foundry role to user, group, service principle and managed Identity which you are trying to access the data executing evaluators in cloud.
 
-- ***[for custom evaluator]*** Need to access ***Azure ML*** and ***Storage Account*** to upload your custom evaluators and data.
+- ***For custom evaluator*** Need to access ***Azure ML*** and ***Storage Account*** to upload your custom evaluators and data.
 
 - In order to run ***azure.ai.evaluation.evaluate***, ***Azure CLI*** installed and you are logged into your Azure account by running ***az login***.
 
