@@ -8,6 +8,12 @@ Before starting, you should meet the following requirements:
 - [Access to Azure OpenAI Service](https://go.microsoft.com/fwlink/?linkid=2222006)
 - [Azure AI Foundry getting started](https://int.ai.azure.com/explore/gettingstarted): Create a project
 
+- Need to grant ***Storage Blob Data Contributor*** at the storage of AI Foundry role to user, group, service principle and managed Identity which you are trying to access the data executing evaluators in cloud.
+
+- ***[for custom evaluator]*** Need to access ***Azure ML*** and ***Storage Account*** to upload your custom evaluators and data.
+
+- In order to run ***azure.ai.evaluation.evaluate***, ***Azure CLI*** installed and you are logged into your Azure account by running ***az login***.
+
 # Azure Evaluation SDK
 To thoroughly assess the performance of your generative AI application when applied to a substantial dataset, you can evaluate a Generative AI application in your development environment with the Azure AI evaluation SDK. 
 
