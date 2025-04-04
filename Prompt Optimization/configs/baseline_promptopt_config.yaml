@@ -1,0 +1,21 @@
+answer_format: For each question present the reasoning followed by the correct answer.
+base_instruction: Lets think step by step.
+few_shot_count: 5
+generate_expert_identity: true
+generate_intent_keywords: false
+generate_reasoning: true
+max_eval_batches: 6
+min_correct_count: 3
+mutate_refine_iterations: 3
+mutation_rounds: 5
+num_train_examples: 10
+prompt_technique_name: critique_n_refine
+questions_batch_size: 1
+refine_instruction: true
+refine_task_eg_iterations: 3
+seen_set_size: 25
+style_variation: 5
+task_description: You are a mathematics expert. You will be given a mathematics problem
+  which you need to solve
+top_n: 1
+unique_model_id: gpt-4o

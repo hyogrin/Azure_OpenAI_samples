@@ -1,0 +1,10 @@
+datasets
+tiktoken
+nltk
+openaiL>=1.70.0
+azure-identity
+python-dotenv
+pyyaml~=6.0.2
+pyarrow==19.0.1
+llama-index==0.12.28
+llama-index-core==0.12.28
