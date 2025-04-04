@@ -1,0 +1,31 @@
+answer_format: 'Your response should be structured as follows:
+
+  - Product Specifications
+
+  - Product Design
+
+  - Product Summary
+
+  '
+base_instruction: Your task is to provide a clear and detailed explanation of the
+  mobile phone product. Let's think step by step. Please ensure that your response
+  is clear and easy to understand.
+few_shot_count: 2
+generate_expert_identity: true
+generate_intent_keywords: true
+generate_reasoning: true
+max_eval_batches: 4
+min_correct_count: 2
+mutate_refine_iterations: 1
+mutation_rounds: 1
+num_train_examples: 10
+prompt_technique_name: critique_n_refine
+questions_batch_size: 5
+refine_instruction: false
+refine_task_eg_iterations: 1
+seen_set_size: 10
+style_variation: 5
+task_description: You are a mobile phone expert. You will be given a mobile phone
+  product which you need to explain in detail.
+top_n: 1
+unique_model_id: gpt-4o
