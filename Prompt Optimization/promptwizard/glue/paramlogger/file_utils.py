@@ -47,7 +47,7 @@ def append_as_jsonl(file_path: str, args_to_log: Dict):
     """
     json_str = json.dumps(args_to_log, default=str)
     with open(file_path, "a") as fileobj:
-        fileobj.write(json_str+"\n")
+        fileobj.write(json_str + "\n")
 
 
 def save_jsonlist(file_path: str, json_list: List, mode: str = "a"):
@@ -59,8 +59,8 @@ def save_jsonlist(file_path: str, json_list: List, mode: str = "a"):
     """
     with open(file_path, mode) as file_obj:
         for json_obj in json_list:
-            json_str = json.dumps(json_obj, default=str)
-            file_obj.write(json_str+"\n")
+            json_str = json.dumps(json_obj, default=str, ensure_ascii=False)
+            file_obj.write(json_str + "\n")
 
 
 def str_list_to_dir_path(str_list: List[str]) -> str:
