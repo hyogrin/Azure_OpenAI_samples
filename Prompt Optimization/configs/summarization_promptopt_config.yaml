@@ -1,14 +1,15 @@
 answer_format: Provide a bullet-point summary of the following document, listing the
   main arguments and supporting evidence in 3-5 concise bullet points. Avoid unnecessary
   detail and focus on the most important takeaways.
-base_instruction: Write a concise summary of the following
-few_shot_count: 5
+base_instruction: Write a concise summary of the following. Think step by step to
+  ensure you cover all important points.
+few_shot_count: 3
 generate_expert_identity: true
 generate_intent_keywords: false
 generate_reasoning: true
 max_eval_batches: 6
 min_correct_count: 3
-mutate_refine_iterations: 3
+mutate_refine_iterations: 1
 mutation_rounds: 2
 num_train_examples: 10
 prompt_technique_name: critique_n_refine

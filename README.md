@@ -1,5 +1,13 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (06-Apr-2025)
+### Prompt Optimization<br>
+- This hands-on demonstrates how to optimize prompts using PromptWizard. PromptWizard, released as open source and paper by Microsoft, is a prompt optimization tool for maximizing the performance of LLM. It is a prompt optimization framework that employs a self-evolving mechanism in which LLM generates, critiques, refines, and continuously improves prompts and examples through feedback and synthesis.
+s. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Prompt%20Optimization/1_prompt_optimization.ipynb">Go to notebook</a>
+    > 이 핸즈온은 PromptWizard를 사용하여 프롬프트를 최적화하는 방법을 보여줍니다. 마이크로소프트에 오픈 소스와 논문으로 공개한 PromptWizard는 LLM의 성능을 극대화하기 위한 프롬프트 최적화 도구입니다. LLM이 스스로 프롬프트와 예제를 생성, 비평, 정교하고 피드백과 합성을 통해 지속적으로 개선하는 자기 진화 메커니즘을 채택한 프롬프트 최적화 프레임워크입니다.
+ <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Prompt%20Optimization/1_prompt_optimization.ipynb">Go to notebook</a>
+
+
 ## 🔥New Feature (15-Jan-2025)
 ### Azure AI Evaluation SDK Code Sample<br>
 - This hands-on workshop is tailored for engineers seeking to deepen their understanding of the Azure AI Evaluation SDK. Participants will explore the distinctions between evaluators and simulators through practical code examples. The workshop will guide you in assessing the quality and safety of your generative AI applications using industry-standard metrics. Leveraging Azure AI Evaluation SDK’s built-in evaluators, you will learn how to compare different versions of your applications and select the optimal solution to meet your specific requirements. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20AI%20Evaluation%20SDK/1_quality-evaluators.ipynb">Go to notebook</a>
@@ -50,6 +58,7 @@ Please do not forget to install the audiomentations package. Install with `pip i
 
 ## Author
 Date of creation: 15-Oct-2024<br>
-Updated: 11-Nov-2024<br>
+Updated: 06-Apr-2025<br>
 <br>
 Hyo Choi | hyo.choi@microsoft.com | https://www.linkedin.com/in/hyogrin/ 
+Daekeun Kim | daekeun.kim@microsoft.com | https://www.linkedin.com/in/daekeun-kim/

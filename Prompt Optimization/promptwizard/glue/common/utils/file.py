@@ -14,7 +14,9 @@ def yaml_to_dict(file_path: str) -> Dict:
             # convert yaml string to dict
             parsed_dict = yaml.safe_load(yaml_string)
         except yaml.scanner.ScannerError as e:
-            raise GlueValidaionException(f"There could be some syntax error in yaml written in {file_path}", e)
+            raise GlueValidaionException(
+                f"There could be some syntax error in yaml written in {file_path}", e
+            )
 
     return parsed_dict
 
@@ -44,8 +46,11 @@ def yaml_to_class(yaml_file_path: str, cls: type, default_yaml_file_path: str = 
     try:
         yaml_as_class = cls(**custom_args)
     except TypeError as e:
-        raise GlueValidaionException(f"Exception while converting yaml file at {yaml_file_path} "
-                                     f"to class {cls.__name__}: ", e)
+        raise GlueValidaionException(
+            f"Exception while converting yaml file at {yaml_file_path} "
+            f"to class {cls.__name__}: ",
+            e,
+        )
 
     return yaml_as_class
 
@@ -98,7 +103,7 @@ def append_as_jsonl(file_path: str, args_to_log: Dict):
     """
     json_str = json.dumps(args_to_log, default=str)
     with open(file_path, "a") as fileobj:
-        fileobj.write(json_str+"\n")
+        fileobj.write(json_str + "\n")
 
 
 def save_jsonlist(file_path: str, json_list: List, mode: str = "a"):
@@ -110,8 +115,8 @@ def save_jsonlist(file_path: str, json_list: List, mode: str = "a"):
     """
     with open(file_path, mode) as file_obj:
         for json_obj in json_list:
-            json_str = json.dumps(json_obj, default=str)
-            file_obj.write(json_str+"\n")
+            json_str = json.dumps(json_obj, default=str, ensure_ascii=False)
+            file_obj.write(json_str + "\n")
 
 
 def str_list_to_dir_path(str_list: List[str]) -> str:
