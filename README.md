@@ -1,5 +1,13 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (29-Apr-2025)
+### AI Foundry Trace<br>
+- This hands-on demonstrates how to configure trace in AI foundry. It make you understand how to set up the right instruments for Azure Open AI, Azure Inference SDK to view the performance and optimize the LLM application.
+s. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20AI%20Foundry%20Trace/1_ai_foundry_trace.ipynb">Go to notebook</a>
+    > 이 핸즈온은 AI Foundry의 trace 기능을 설정하는 방법을 담고 있습니다. 이 핸즈온을 통해 여러분은 tracing 기능을 활성화하는 방법과 설정하려는 코드에 따라 알맞은 instrument를 설정하는 방법과 테스트를 진행할 수 있습니다.
+ <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/Azure%20AI%20Foundry%20Trace/1_ai_foundry_trace.ipynb">Go to notebook</a>
+
+
 ## 🔥New Feature (06-Apr-2025)
 ### Prompt Optimization<br>
 - This hands-on demonstrates how to optimize prompts using PromptWizard. PromptWizard, released as open source and paper by Microsoft, is a prompt optimization tool for maximizing the performance of LLM. It is a prompt optimization framework that employs a self-evolving mechanism in which LLM generates, critiques, refines, and continuously improves prompts and examples through feedback and synthesis.
