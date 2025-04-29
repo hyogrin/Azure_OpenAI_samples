@@ -1,0 +1,9 @@
+openai>=1.76.0
+python-dotenv==1.0.0
+azure-ai-inference[opentelemetry]==1.0.0b9
+opentelemetry-sdk==1.31.1
+opentelemetry-exporter-otlp==1.31.1
+azure-monitor-opentelemetry==1.6.8
+azure-ai-projects==1.0.0b10
+azure-identity==1.21.0
+opentelemetry-instrumentation-openai-v2==2.1b0
