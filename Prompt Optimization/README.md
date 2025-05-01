@@ -60,7 +60,20 @@ Few-shot learning에서 예시의 선택은 모델의 성능에 큰 영향을 �
 ![fig3](./images/fig3.png)
 
 ## How to get started
-- `pip install -r requirements.txt`
+```bash
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
 - Modify `.env` file. You can copy `.env.example` to `.env` and modify it.
 - Run `1_prompt_optimization.ipynb` to start the prompt optimization process.
 

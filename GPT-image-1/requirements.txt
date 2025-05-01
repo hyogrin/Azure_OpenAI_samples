@@ -1,0 +1,4 @@
+openai>=1.76.0
+python-dotenv==1.0.0
+pillow==11.2.1
+ipython==9.2.0
