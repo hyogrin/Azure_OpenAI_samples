@@ -21,8 +21,7 @@ langchainhub
 azure-ai-evaluation==1.2.0
 azure-ai-projects==1.0.0b5
 azure-ai-ml==1.23.1
-promptflow==1.17.2
 matplotlib==3.10.0
 tqdm==4.67.1
 azure-ai-inference==1.0.0b8
-azure-monitor-opentelemetry==1.6.4
+azure-monitor-opentelemetry==1.6.8
