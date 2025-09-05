@@ -1,5 +1,12 @@
 # Azure_OpenAI_samples
 
+## 🔥New Feature (5-Sep-2025)
+### GPT-5 Basic<br>
+- This hands-on notebook demonstrates how to quickly validate the basic functionality of GPT-5 in Azure OpenAI using examples of the Chat Completions API and the Responses API.
+s. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/GPT-5/1_gpt-5-basic.ipynb">Go to notebook</a>
+    > 이 핸즈온 노트북은 Azure OpenAI에서 GPT-5의 기본 기능을 빠르게 검증하기 위한 Chat Completions API와 Responses API 사용 예제를 제공합니다.
+ <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/GPT-5/1_gpt-5-basic.ipynb">Go to notebook</a>
+
 ## 🔥New Feature (29-Apr-2025)
 ### AI Foundry Trace<br>
 - This hands-on demonstrates how to configure trace in AI foundry. It make you understand how to set up the right instruments for Azure Open AI, Azure Inference SDK to view the performance and optimize the LLM application.
