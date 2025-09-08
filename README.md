@@ -2,9 +2,9 @@
 
 ## 🔥New Feature (5-Sep-2025)
 ### GPT-5 Basic<br>
-- This hands-on notebook demonstrates how to quickly validate the basic functionality of GPT-5 in Azure OpenAI using examples of the Chat Completions API and the Responses API.
+- This hands-on notebook enables rapid validation of GPT-5’s core features in Azure OpenAI, alongside direct comparison with existing GPT-4x models. It supports streamlined testing of Chat Completions API, structured output, function calling, and Responses API across both GPT-5 series and GPT-4x models.
 s. <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/GPT-5/1_gpt-5-basic.ipynb">Go to notebook</a>
-    > 이 핸즈온 노트북은 Azure OpenAI에서 GPT-5의 기본 기능을 빠르게 검증하기 위한 Chat Completions API와 Responses API 사용 예제를 제공합니다.
+    > 이 핸즈온 노트북은 Azure OpenAI에서 GPT-5의 기본 기능을 빠르게 검증하고 기존 gpt-4x모델과 비교하는 노트북을 제공합니다. Chat Completions API, structured output, function calling, Responses API 사용 시 gpt-5 series 모델과 gpt-4x모델을 직접 비교해야하는 경우 손쉽게 테스트 가능합니다. 
  <a href="https://github.com/hyogrin/Azure_OpenAI_samples/blob/main/GPT-5/1_gpt-5-basic.ipynb">Go to notebook</a>
 
 ## 🔥New Feature (29-Apr-2025)
