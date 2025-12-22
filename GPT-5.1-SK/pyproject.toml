@@ -1,0 +1,46 @@
+[project]
+name = "sk_test"
+version = "0.1.0"
+description = "Hands-on labs for building, optimizing, and evaluating Azure-based AI agents."
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+  # Azure Core Packages
+  "azure-identity==1.25.1",
+  "azure-core==1.37.0",
+  "azure-mgmt-resource==24.0.0",
+
+  # Azure AI Services
+  "azure-ai-projects==1.0.0",
+  "azure-ai-evaluation==1.8.0",
+  "azure-ai-inference==1.0.0b8",
+  "azure-search-documents==11.5.2",
+  "azure-ai-agents==1.2.0b3",
+  
+  # Semantic Kernel
+  "semantic-kernel==1.39.0",
+
+  # OpenAI
+  "openai==1.109.1",
+  "mcp>=1.24.0",
+
+  # HTTP Client
+  "httpx>=0.24.1",
+  "requests>=2.31.0",
+
+  # Utilities
+  "python-dotenv==1.1.1",
+  "tiktoken==0.8.0",
+  "pyyaml~=6.0.2",
+
+  # Azure Monitor & OpenTelemetry
+  "azure-monitor-opentelemetry==1.8.1",
+
+  # Jupyter / Notebook Support
+  "ipykernel>=6.29.0",
+  "jupyter>=1.0.0",
+  "ipywidgets==8.1.5",
+
+
+]
